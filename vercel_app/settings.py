@@ -26,10 +26,7 @@ SECRET_KEY = '%n*nfl2s%w!dxtx&hhnzb(%c^5n8wv7k6$fjt&tz!)kvrolmjr'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '.vercel.app',
-    '.now.sh'
-]
+    '*']
 
 STATIC_URL = '/static/'
 
